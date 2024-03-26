@@ -9,6 +9,7 @@
         <module name="context" />
         <module name="http" />
         <module name="request" />
+        <module name="oa" />
         <module name="config" />
         <module name="welcome" />
       </profile>
