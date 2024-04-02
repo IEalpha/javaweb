@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <title>部门信息</title>
+</head>
+<body>
+<h1>部门信息</h1>
+<hr/>
+<table border='1' width='50%' align='center'>
+    <tr>
+        <th>序号</th>
+        <th>部门编号</th>
+        <th>部门名称</th>
+        <th>操作</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>001</td>
+        <td>财务部</td>
+        <td>
+            <a href='detail.html'>查看</a>
+            <a href='edit.html'>编辑</a>
+            <a href='#' onclick='deleteDept("abcd")'>删除</a>
+        </td>
+    </tr>
+</table>
+<button><a href='add.html'>添加部门</a></button>
+</body>
+<script type='text/javascript'>
+    function deleteDept(dept) {
+        if (confirm('确定要删除'+dept+'部门吗？')) {
+            window.location.href = '/oa/dept/delete?dept='+dept;
+        }
+    }
+</script>
+</html>
