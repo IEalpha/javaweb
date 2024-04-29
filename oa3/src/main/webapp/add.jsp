@@ -1,0 +1,25 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <title>添加部门</title>
+</head>
+<body>
+<form action='<%=request.getContextPath()%>/dept/doAdd' method='post'>
+    <label>部门编号：
+        <input type='text' name='dept_no'/>
+    </label><br/>
+    <label>部门名称：
+        <input type='text' name='dname'/>
+    </label><br/>
+    <label>
+        部门位置：
+        <input type='text' name='location'/>
+    </label><br/>
+    <input type='submit' value='添加'/>
+    <!--    返回上一个页面-->
+    <input type='button' value='返回' onclick='history.back()'>
+</form>
+</body>
+</html>
