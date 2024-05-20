@@ -5,3 +5,4 @@
 */mvnw.cmd
 javaweb.iml
 *.iml
+/out/

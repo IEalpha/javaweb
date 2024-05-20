@@ -13,6 +13,8 @@
         <option value="$PROJECT_DIR$/oa2/pom.xml" />
         <option value="$PROJECT_DIR$/jsp/pom.xml" />
         <option value="$PROJECT_DIR$/oa3/pom.xml" />
+        <option value="$PROJECT_DIR$/jstl/pom.xml" />
+        <option value="$PROJECT_DIR$/listener/pom.xml" />
       </list>
     </option>
   </component>

@@ -5,12 +5,8 @@
   <title>JSP - Hello World</title>
 </head>
 <body>
-<h1><%= "Hello World! 你好" %></h1>
+<h1><%= "Hello World!" %></h1>
 <br/>
-<a href="hello-servlet">Hello Servlet 你好</a>
-<%
-  request.setAttribute("name", "JSP");
-%>
-${name}
+<a href="hello-servlet">Hello Servlet</a>
 </body>
 </html>

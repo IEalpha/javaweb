@@ -13,10 +13,12 @@ import java.io.PrintWriter;
 
 public class GetServlet extends HttpServlet {
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html");
         PrintWriter writer = resp.getWriter();
         writer.println("<h1>get in post</h1>");
+        writer.println(req.getParameter("username"));
+        System.out.println(req.getParameter("username"));
     }
 
     //    @Override

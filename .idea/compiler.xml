@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="oa3" />
+        <module name="jstl" />
         <module name="request" />
         <module name="oa2" />
         <module name="oa" />
         <module name="jsp" />
         <module name="context" />
+        <module name="listener" />
         <module name="http" />
         <module name="config" />
         <module name="welcome" />
